@@ -1,16 +1,29 @@
-# todo
+✅ ToDo App
+A simple and modern ToDo app built with Flutter. Designed to help users manage daily tasks with a clean UI and optional online storage.
 
-A new Flutter project.
+⚠️ Note: This app was originally connected to an external API for saving tasks. That API is currently unavailable, so task saving and retrieval are disabled. Screenshots only display the app's interface — not the actual task list view.
 
-## Getting Started
+📱 Screenshots
+UI previews only (to-do activity screen not included due to API issue)
 
-This project is a starting point for a Flutter application.
+markdown
+Copy
+Edit
+<img src="todo%20screens/1.png" width="300" alt="ToDo App Screenshot 1">
+<img src="todo%20screens/2.png" width="300" alt="ToDo App Screenshot 2">
+<img src="todo%20screens/3.png" width="300" alt="ToDo App Screenshot 2">
 
-A few resources to get you started if this is your first Flutter project:
+## 🌟 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 📝 Add, edit, check, and delete tasks *(currently disabled due to API issue)*
+- ✅ Mark tasks as complete/incomplete
+- 📅 View tasks sorted by date (Today, Upcoming)
+- 🕒 "Undo" tab for incomplete tasks
+- 📋 Checked tasks move to a "See All" (Completed Tasks) section
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🛠️ Built With
+
+Flutter
+
+Dart
+
