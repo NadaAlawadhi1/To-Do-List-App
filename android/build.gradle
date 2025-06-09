@@ -1,0 +1,27 @@
+buildscript {
+    repositories {
+        google() // Use Google's Maven repository
+        mavenCentral() // Use Maven Central repository
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.2.2' // Updated AGP version
+    }
+}
+
+allprojects {
+    repositories {
+        google() // Use Google's Maven repository
+        mavenCentral() // Use Maven Central repository
+    }
+}
+
+rootProject.buildDir = "../build" // Set the root project build directory
+
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}" // Set individual subproject build directories
+    project.evaluationDependsOn(":app") // Ensure subprojects depend on the ':app' project
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir // Task to clean the build directory
+}
