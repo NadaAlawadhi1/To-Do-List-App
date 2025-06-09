@@ -6,9 +6,7 @@ A simple and modern ToDo app built with Flutter. Designed to help users manage d
 📱 Screenshots
 UI previews only (to-do activity screen not included due to API issue)
 
-markdown
-Copy
-Edit
+
 <img src="todo%20screens/1.png" width="300" alt="ToDo App Screenshot 1">
 <img src="todo%20screens/2.png" width="300" alt="ToDo App Screenshot 2">
 <img src="todo%20screens/3.png" width="300" alt="ToDo App Screenshot 2">
