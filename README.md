@@ -14,6 +14,7 @@ UI previews only (to-do activity screen not included due to API issue)
 ## 🌟 Features
 
 - 📝 Add, edit, check, and delete tasks *(currently disabled due to API issue)*
+⚠️ Note: The code for these features is already implemented and still written — only the backend API is missing.
 - ✅ Mark tasks as complete/incomplete
 - 📅 View tasks sorted by date (Today, Upcoming)
 - 🕒 "Undo" tab for incomplete tasks
