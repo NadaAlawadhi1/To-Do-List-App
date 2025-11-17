@@ -16,15 +16,16 @@ All screenshots below focus on the UI only.
 ---
 
 ## 🌟 Features
-- 📝 Add, edit, check, and delete tasks  
-  *(currently disabled because the backend API is offline — but all code is implemented and ready)*  
+- 📝 Add, edit, check, and delete tasks *(currently disabled due to offline API — all code implemented and ready)*  
 - ✅ Mark tasks as complete or incomplete  
 - 📅 View tasks sorted by date (Today, Upcoming)  
 - 🕒 "Undo" tab for incomplete tasks  
 - 📋 Completed tasks move to a dedicated **See All** section  
+- 🔄 **State Management with Provider**: All CRUD operations are handled using Provider for reactive UI updates  
 
 ---
 
 ## 🛠️ Built With
 - **Flutter**  
 - **Dart**  
+- **Provider** — For state management and CRUD operations  
